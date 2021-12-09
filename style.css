@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url('https://wallpaperaccess.com/full/358836.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    position:fixed;
+    background: rgba(138, 131, 131, 0.678);
+    height: 100vh;
+    width: 16%;
+    border: 1px solid black;
+}
+
+.js{
+    max-width: 10%;
+    margin-left: 1em;
+    padding-top: 1em;
+}
+
+.main-section-title1{
+    padding: 10px 0px 10px 30px;
+    border: 1px solid black;
+    letter-spacing: .2em;
+    padding-bottom: 1em;
+}
+
+.main-section1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.main-section1 a{
+    padding: 10px 0px 10px 30px;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.548);
+    text-decoration: none;
+    transition: .2s;
+}
+
+.main-section1 a:hover{
+    background: rgb(75, 72, 72);
+    color: white;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+#main-doc1{
+    margin-left: 18%;
+    padding-top: .5em;
+    max-width: 80%;
+}
+
+.big-title{
+    margin-top: 1em;
+    margin-bottom: .7em;
+}
+
+.description{
+    margin-bottom: .7em;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.main-list{
+    margin-left: 3em;
+}
+
+.list{
+    margin-bottom: .7em;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.second-list{
+    margin-left: 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.under-list{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.example{
+    margin-left: 3em;
+    margin-bottom: .7em;
+    color: rgba(0, 0, 0, 0.548);
+    background: rgba(128, 128, 128, 0.11);
+    padding: .5em;
+    max-width: 100%;
+}
+
+#none{
+    display: none;
+}
+
+
+@media (max-width: 1500px){
+    .main-section-title1 h1{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1150px){
+    header{
+        position: absolute;
+        background: gray;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        overflow: auto;
+        opacity: .8;
+        border: 15px solid black;
+    }
+
+    #main-doc1{
+        margin-left: 10%;
+        padding-top: 13em;
+        max-width: 80%;
+    }
+}
